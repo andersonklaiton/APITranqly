@@ -12,7 +12,8 @@ const rules = auth.rewriter({
   users:600, 
   calendarUser:660, /*usuário/paciente precisa estar logado para ler e editar seu calendário*/
   calendarProfessional:664, /*usuário/paciente precisa estar logado para agendar um horario com o profissional, todos podem visualizar o calendário*/
-  coments:644
+  coments:644,
+  qualification:644
   
 });
 

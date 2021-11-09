@@ -1,63 +1,76 @@
 {
-    "users":[
-        {
-
-            "id":1,
-            "type":"professional",
-            "image":"https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg",
-            "name":"Frederico Masomeno",
-            "email":"frederico@masomeno.com",
-            "password":"$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-            "profession":"Psicologo",
-            "areas":[
-                "Traumas",
-                "TEPT",
-                "Relacionamentos"
-            ],
-            "description":"Psicologo formado na Faculdade Imaginária de Natanlandiacom especialização em traumas e relacionamentos. Com experiência em muitos lugares loucos mano. Dattebayo.",
-            "phone":"(99) 99999-9999",
-            "gender":"masculino",
-            "qualified":4.7
-        },
-        {
-            "id":2,
-            "type":"client",
-            "image":"https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg",
-            "name":"Tocom Probema",
-            "email":"tocom@probema.com",
-            "password":"$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO"
-        }
-    ],
-    "calendarUser":[
-        {
-            "userId":2,
-            "mon":[],
-            "tue":[],
-            "wed":[],
-            "thu":[],
-            "fri":[],
-            "sat":[]
-        }
-    ],
-    "calendarProfessional":[
-        {
-            "userId":1,
-            "mon":[],
-            "tue":[],
-            "wed":[],
-            "thu":[],
-            "fri":[],
-            "sat":[]
-        }
-    ],
-    "coments":[
-        {
-            "id":1,
-            "UserId":2,
-            "coment":"",
-            "destinyId":1,
-            "note":5
-        }
-    ]
-    
+  "users": [
+    {
+      "id": 1,
+      "type": "professional",
+      "image": "https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg",
+      "name": "Frederico Masomeno",
+      "email": "frederico@masomeno.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "profession": "Psicologo",
+      "areas": [
+        "Traumas",
+        "TEPT",
+        "Relacionamentos"
+      ],
+      "description": "Psicologo formado na Faculdade Imaginária de Natanlandiacom especialização em traumas e relacionamentos. Com experiência em muitos lugares loucos mano. Dattebayo.",
+      "phone": "(99) 99999-9999",
+      "gender": "masculino"
+    },
+    {
+      "id": 2,
+      "type": "client",
+      "image": "https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg",
+      "name": "Tocom Probema",
+      "email": "tocom@probema.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO"
+    },
+    {
+      "email": "meajuda@pofavo.com",
+      "password": "$2a$10$i4cFYL4nfanbR5OrK5U0Wua1HHgHZy7aWOGXG9YMQpCz81IDbdMua",
+      "type": "client",
+      "image": "https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg",
+      "name": "Mea Juda",
+      "id": 3
+    }
+  ],
+  "calendarUser": [
+    {
+      "userId": 2,
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": []
+    }
+  ],
+  "calendarProfessional": [
+    {
+      "userId": 1,
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": []
+    }
+  ],
+  "coments": [
+    {
+      "id": 1,
+      "UserId": 2,
+      "coment": "me ajudou muito",
+      "destinyId": 1,
+      "note": 5
+    }
+  ],
+  "qualification":[
+      {
+          "id":1,
+          "UserId":2,
+          "destinyId":1,
+          "qualification":5
+      }
+  ]
 }
