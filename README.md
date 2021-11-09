@@ -46,3 +46,14 @@ Somente renderiza o calendario do usuário logado
 Get /calendarProfissional?userId={idDoProfissional}
 
 Renderiza o calendario do profissional procurado
+
+Post /coments para cadastrar um comentário para o profissinal
+```json
+{
+	"userId":IdDoUsuario,
+	"comment":"Mea Judou",
+	"destinyId":IdDOProfissional,
+	"note":5
+}
+```
+Get /coments?destinyId=IdDoProfissional para ler os comentarios referente ao profissional
