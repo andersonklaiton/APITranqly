@@ -57,3 +57,13 @@ Post /coments para cadastrar um comentário para o profissinal
 }
 ```
 Get /coments?destinyId=IdDoProfissional para ler os comentarios referente ao profissional
+
+Post /qualification para postar uma nota para o profissional
+```json
+{
+"userId":idDoUsuario,
+   "destinyId":idDoProfissional,
+   "qualification":5
+}
+```
+Get /qualification?destinyId=IdDoProfissional para ver as qualificaçoes
