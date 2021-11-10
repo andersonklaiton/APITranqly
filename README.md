@@ -174,7 +174,7 @@ Caso dê tudo certo, a resposta será assim:
 
 <h3 align='center'> Postar um comentário referente ao atendimento do profissional </h3>
 
-`POST / coments - FORMATO DA REQUISIÇÃO`
+`POST /coments - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
@@ -186,7 +186,7 @@ Caso dê tudo certo, a resposta será assim:
 ```
 Caso dê tudo certo, a resposta será assim:
 
-`POST / coments - FORMATO DA REQUISIÇÃO - STATUS 201`
+`POST /coments - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```json
 {
@@ -196,7 +196,7 @@ Caso dê tudo certo, a resposta será assim:
   "note": 5,
 }
 ```
-<h3 align='center'> Ler um comentpario referente ao profissional </h3>
+<h3 align='center'> Ler um comentário referente ao profissional </h3>
 
 `GET /coments?destinyId=1 - FORMATO DA REQUISIÇÃO`
 
