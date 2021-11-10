@@ -194,6 +194,7 @@ Caso dê tudo certo, a resposta será assim:
   "comment": "Me ajudou a me sentir melhor",
   "destinyId": 1,
   "note": 5,
+  "id:1
 }
 ```
 <h3 align='center'> Ler um comentário referente ao profissional </h3>
