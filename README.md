@@ -241,6 +241,12 @@ Caso dê tudo certo, a resposta será assim:
 
 <h3 align='center'> Ler um comentário referente ao a pagina </h3>
 
+`GET /commentsPage - Formato da requisição`
+
+Caso dê tudo certo, a resposta será assim:
+
+`GET /commentsPage - Formato da resposta - STATUS 200`
+
 ```json
 {
     {
