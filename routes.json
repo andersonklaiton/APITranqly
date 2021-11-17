@@ -1,7 +1,7 @@
 {
-    "users":644,
-    "calendarUser":660,
-    "calendarProfessional":664,
-    "coments":644,
-    "qualification":644
-}
+    "users": 664,
+    "profissional": 660,
+    "patient": 660,
+    "comments": 664,
+    "commentsPage": 660
+  }
