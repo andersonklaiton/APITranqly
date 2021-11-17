@@ -75,7 +75,7 @@ Caso dê tudo certo, a resposta será assim:
 
 ```json
 {
-  "email": "frederico@masomeno.com",
+  "email": "anderson@gmail.com",
   "password": "123456"
 }
 ```
@@ -88,14 +88,13 @@ Para profissional
 
 ```json
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWRlcmljb0BtYXNvbWVuby5jb20iLCJpYXQiOjE2MzY1ODQ2OTYsImV4cCI6MTYzNjU4ODI5Niwic3ViIjoiMSJ9.4bS7_s9f3NKlVgF0NTHRLHaYOcFWsDXZjgQpZate1Ho",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1haWwxQGdtYWlsLmNvbSIsImlhdCI6MTYzNzE1NjEyNiwiZXhwIjoxNjM3MTU5NzI2LCJzdWIiOiIxIn0.fjoOJ0syyqa8n0ZS4dvU9IH9aKMwl6lWsUpXJ9P5s2Y",
   "user": {
     "id": 1,
     "type": "professional",
     "image": "https://i.ibb.co/xSzr2x6/Sample.png",
     "name": "Leonice Bandeira",
     "email": "mail1@gmail.com",
-    "password": "$2a$10$u6HH6eUZKraYmPlnHmmsKuFN24LB3jnswW30iytPOvIp6G5MAdOKC",
     "profession": "Psicologo",
     "areas": "Traumas, TEPT e Relacionamentos",
     "description": "Psicóloga Clínica desde 2012 e consultora em Saúde e Educação Sexual. Extensa experiência com pacientes em estados depressivos, com transtornos de ansiedade, transtorno de estresse pós-traumático, vítimas de violência sexual e doméstica e com problemas na esfera sexual.",
@@ -112,14 +111,13 @@ Para cliente
 
 ```json
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRvY29tQHByb2JlbWEuY29tIiwiaWF0IjoxNjM2NTg0ODc3LCJleHAiOjE2MzY1ODg0NzcsInN1YiI6IjIifQ.NxCWy_ENMjsayStnTfOGozfOHlC273d_NuORtppSxFQ",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuZGVyc29uQGdtYWlsLmNvbSIsImlhdCI6MTYzNzE1NTgxNywiZXhwIjoxNjM3MTU5NDE3LCJzdWIiOiIxMSJ9.dzWMjwKXMOfSRhraz83um-zmN2NA8CfZ36wnDj6P03c",
   "user": {
     "id": 11,
     "type": "client",
     "image": "https://ca.slack-edge.com/TQZR39SET-U021MHSRNHK-988a68fd0871-512",
     "name": "Anderson Klaiton",
-    "email": "anderson@gmail.com",
-    "password": "$2a$10$u6HH6eUZKraYmPlnHmmsKuFN24LB3jnswW30iytPOvIp6G5MAdOKC"
+    "email": "anderson@gmail.com"
   }
 }
 ```
@@ -145,13 +143,40 @@ Caso dê tudo certo, a resposta será assim:
 
 ## Rotas que necessitam de autenticação
 
-<h3 align='center'> Visualização de horarios agendados do próprio usuário </h3>
+<h3 align='center'> Agendar um horário com especialista</h3>
 
-`GET /patient?patientId=:id - FORMATO DA REQUISIÇÃO`
+`POST /patient - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+    "userId": 1,
+    "type": false,
+    "date": "2021-11-29T23:58:22-03:00",
+    "patientId": 11,
+    "cancel": "true"
+  }
+```
 
 Caso dê tudo certo, a resposta será assim:
 
-`GET patient?patientId=:id - FORMATO DA RESPOSTA - STATUS 200`
+```json
+{
+  "id": 16,
+  "userId": 1,
+  "type": false,
+  "date": "2021-11-29T23:58:22-03:00",
+  "patientId": 11,
+  "cancel": "true"
+}
+```
+
+<h3 align='center'> Visualização de horarios agendados do próprio usuário </h3>
+
+`GET /patient?patientId=1 - FORMATO DA REQUISIÇÃO`
+
+Caso dê tudo certo, a resposta será assim:
+
+`GET /patient?patientId=1 - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
