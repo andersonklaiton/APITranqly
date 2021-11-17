@@ -321,7 +321,7 @@
       "comment": "Fazer terapia online soava estranho para mim. Por sorte, encontrei a Leonice. Excelente profissional com uma percepção e empatia surpreendentes. Super recomendo!",
       "id": 3,
       "patientId": 11,
-      "professionalId": 1,
+      "professionalId": 3,
       "score": 3
     },
     {
@@ -345,14 +345,14 @@
       "comment": "Muito boa profissional. Ótima percepção e boa empatia.",
       "id": 6,
       "patientId": 11,
-      "professionalId": 1,
+      "professionalId": 2,
       "score": 3
     }
   ],
   "commentsPage": [
     {
       "namePatient": "Fabiola",
-      "comment": "Me sinto mais acolhida com o psicólogo do Tranqly do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
+      "comment": "Me sinto mais acolhida com o psicólogo do Tranqyl do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
       "id": 1,
       "score": 5
     },
@@ -370,7 +370,7 @@
     },
     {
       "namePatient": "Fernando",
-      "comment": "Utilizar o Tranqly me ajudou nesse tempo de quarentena, conversar com alguém que sabe te ajudar e sabe o que você está passando é a melhor coisa. E fazer isso online também me ajudou, pois possibilitou eu ter ajuda rápida.",
+      "comment": "Utilizar o Tranqyl me ajudou nesse tempo de quarentena, conversar com alguém que sabe te ajudar e sabe o que você está passando é a melhor coisa. E fazer isso online também me ajudou, pois possibilitou eu ter ajuda rápida.",
       "id": 4,
       "score": 5
     },
@@ -382,7 +382,7 @@
     },
     {
       "namePatient": "Lana",
-      "comment": "azer terapia online soava estranho para mim. Por sorte encontrei o Tranqly.",
+      "comment": "fazer terapia online soava estranho para mim. Por sorte encontrei o Tranqyl.",
       "id": 6,
       "score": 3
     }
