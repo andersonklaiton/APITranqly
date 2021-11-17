@@ -159,6 +159,8 @@ Caso dê tudo certo, a resposta será assim:
 
 Caso dê tudo certo, a resposta será assim:
 
+`POST /patient - FORMATO DA RESPOSTA - STATUS 201`
+
 ```json
 {
   "id": 16,
@@ -207,7 +209,7 @@ Caso dê tudo certo, a resposta será assim:
 
 Caso dê tudo certo, a resposta será assim:
 
-`POST /coments - FORMATO DA REQUISIÇÃO - STATUS 201`
+`POST /coments - FORMATO DA RESPOSTA - STATUS 201`
 
 ```json
 {
@@ -226,7 +228,7 @@ Caso dê tudo certo, a resposta será assim:
 
 Caso dê tudo certo, a resposta será assim:
 
-`GET /coments?destinyId=1 - FORMATO DA REQUISIÇÃO - STATUS 200`
+`GET /coments?destinyId=1 - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 {
@@ -238,36 +240,49 @@ Caso dê tudo certo, a resposta será assim:
   "score": 5
 }
 ```
+<h3 align='center'> Postar um comentário referente a pagina </h3>
 
-<h3 align='center'> Ler um comentário referente ao a pagina </h3>
-
-`GET /commentsPage - Formato da requisição`
-
-Caso dê tudo certo, a resposta será assim:
-
-`GET /commentsPage - Formato da resposta - STATUS 200`
+`POST /commentsPage - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
-    {
-      "namePatient": "Fabiola",
-      "comment": "Me sinto mais acolhida com o psicólogo do Tranqly do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
-      "score": 5
-    },
-}
-```
-
-Caso dê tudo certo, a resposta será assim:
-
-`POST /coments - FORMATO DA REQUISIÇÃO - STATUS 201`
-
-```json
-{
-    {
-      "namePatient": "Fabiola",
-      "comment": "Me sinto mais acolhida com o psicólogo do Tranqly do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
+      "namePatient": "Fernando",
+      "comment": "Utilizar o Tranqyl me ajudou nesse tempo de quarentena, conversar com alguém que sabe te ajudar e sabe o que você está passando é a melhor coisa. E fazer isso online também me ajudou, pois possibilitou eu ter ajuda rápida.",
       "id": 1,
       "score": 5
+}
+```
+
+Caso dê tudo certo a resposta será assim:
+
+`POST /commentsPage - FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+  "namePatient": "Monalisa",
+  "comment": "teste para atualizar estrelas",
+  "patientId": 2,
+  "score": 1,
+  "id": 7
+}
+```
+
+<h3 align='center'> Ler um comentário referente a pagina </h3>
+
+`GET /commentsPage - FORMATO DA REQUISIÇÃO`
+
+Caso dê tudo certo, a resposta será assim:
+
+`GET /commentsPage - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+    {
+      "namePatient": "Fabiola",
+      "comment": "Me sinto mais acolhida com o psicólogo do Tranqly do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
+      "id":2
+      "score": 5
     },
 }
 ```
+
