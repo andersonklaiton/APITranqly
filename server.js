@@ -14,7 +14,6 @@ const rules = auth.rewriter({
   patient: 660,
   comments: 664,
   commentsPage: 660,
-  
 });
 ​
 app.use(cors());
