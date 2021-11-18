@@ -178,19 +178,49 @@ Caso dê tudo certo, a resposta será assim:
 
 Caso dê tudo certo, a resposta será assim:
 
-`GET /patient?patientId=1 - FORMATO DA RESPOSTA - STATUS 200`
+`GET /patient?patientId=11 - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
   {
-    "id": 15,
-    "userId": 1,
-    "patientId": 1,
+    "patientId": 11,
     "type": false,
-    "date": "2021-11-29T23:58:22-03:00",
-    "cancel": "true"
+    "userId": 1,
+    "date": "2021-11-19T20:57:21-03:00",
+    "cancel": false,
+    "areas": "Traumas, TEPT e Relacionamentos",
+    "name": "Leonice Bandeira",
+    "comment": "",
+    "id": 15
   }
 ]
+```
+
+<h3 align='center'>Cancelar horário agendado do pŕoprio usuário </h3>
+
+`PATCH /patient/15 - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+	"cancel":true
+}
+```
+Caso dê tudo certo a resposta será assim:
+
+`PATCH /patient/15 - FORMATO DA RESPOSTA - 200`
+
+```json
+{
+  "patientId": 11,
+  "type": false,
+  "userId": 1,
+  "date": "2021-11-27T23:58:22-03:00",
+  "cancel": true,
+  "areas": "Traumas, TEPT e Relacionamentos",
+  "name": "Leonice Bandeira",
+  "comment": "",
+  "id": 15
+}
 ```
 
 <h3 align='center'> Postar um comentário referente ao atendimento do profissional </h3>
