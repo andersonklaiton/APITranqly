@@ -339,3 +339,29 @@ Caso dê tudo certo a resposta será assim:
   "date": "2021-11-16T20:57:21-07:00"
 }
 ```
+
+<h3 align='center'>Atualizar dados cadastrais</h3>
+
+`PATCH /users/11 - FORMTATO DA REQUISIÇÃO`
+
+```json
+{
+	"email":"klaiton@gmail.com",
+	"name":"Anderson Silva"
+}
+```
+
+Caso dê tudo cerro a resposta será assim:
+
+`PATCH /users/11 - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "id": 11,
+  "type": "client",
+  "image": "https://ca.slack-edge.com/TQZR39SET-U021MHSRNHK-988a68fd0871-512",
+  "name": "Anderson Silva",
+  "email": "klaiton@gmail.com",
+  "password": "$2a$10$mEy/cYN2TIgJ2UU0hfWX5uFa.XY16ezD8DzFhoiCUUHhRyl6FqGFO"
+}
+```
