@@ -14,7 +14,9 @@
       "price": 60,
       "language": "Português || Inglês",
       "state": "Paraná",
-      "crp": "00/000001"
+      "crp": "00/000001",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 2,
@@ -30,7 +32,9 @@
       "price": 80,
       "language": "Português || Inglês",
       "state": "Paraná",
-      "crp": "00/000002"
+      "crp": "00/000002",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 3,
@@ -46,7 +50,9 @@
       "price": 100,
       "language": "Português || Inglês",
       "state": "Paraná",
-      "crp": "00/000003"
+      "crp": "00/000003",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "price": 50,
       "language": "Português || Espanhol",
       "state": "Paraná",
-      "crp": "00/000004"
+      "crp": "00/000004",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 5,
@@ -78,7 +86,9 @@
       "price": 70,
       "language": "Português || Espanhol",
       "state": "Paraná",
-      "crp": "00/000005"
+      "crp": "00/000005",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 6,
@@ -94,7 +104,9 @@
       "price": 80,
       "language": "Português",
       "state": "Paraná",
-      "crp": "00/000006"
+      "crp": "00/000006",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 7,
@@ -110,7 +122,9 @@
       "price": 150,
       "language": "Português",
       "state": "Paraná",
-      "crp": "00/000007"
+      "crp": "00/000007",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 8,
@@ -126,7 +140,9 @@
       "price": 110,
       "language": "Português",
       "state": "Paraná",
-      "crp": "00/000008"
+      "crp": "00/000008",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 9,
@@ -142,7 +158,9 @@
       "price": 200,
       "language": "Português",
       "state": "Paraná",
-      "crp": "00/000009"
+      "crp": "00/000009",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 10,
@@ -158,7 +176,9 @@
       "price": 300,
       "language": "Português",
       "state": "Paraná",
-      "crp": "00/000010"
+      "crp": "00/000010",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456"
     },
     {
       "id": 11,
@@ -229,74 +249,42 @@
     {
       "id": 5,
       "userId": 1,
-      "type": true,
+      "type": false,
       "date": "2021-11-19T20:57:21-03:00"
     },
     {
       "id": 6,
       "userId": 1,
-      "type": true,
-      "date": "2021-11-20T20:57:21-03:00"
-    },
-    {
-      "id": 8,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-21T20:57:21-03:00"
-    },
-    {
-      "id": 9,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-22T20:56:21-03:00"
-    },
-    {
-      "id": 10,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-23T21:51:21-03:00"
-    },
-    {
-      "id": 11,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-24T21:51:22-03:00"
-    },
-    {
-      "id": 12,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-25T22:57:21-03:00"
-    },
-    {
-      "id": 13,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-26T23:58:22-03:00"
-    },
-    {
-      "id": 14,
-      "userId": 1,
-      "type": true,
-      "date": "2021-11-27T23:58:22-03:00"
-    },
-    {
-      "id": 15,
-      "userId": 1,
       "type": false,
-      "date": "2021-11-29T23:58:22-03:00",
-      "patientId": 1,
-      "cancel": "true"
+      "date": "2021-11-20T20:57:21-03:00"
     }
   ],
   "patient": [
     {
-      "id": 15,
-      "userId": 1,
-      "patientId": 1,
+      "patientId": 13,
       "type": false,
-      "date": "2021-11-29T23:58:22-03:00",
-      "cancel": "true"
+      "userId": 1,
+      "date": "2021-11-20T20:57:21-03:00",
+      "cancel": false,
+      "areas": "Traumas, TEPT e Relacionamentos",
+      "name": "Leonice Bandeira",
+      "comment": "deu mane",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456",
+      "id": 1
+    },
+    {
+      "patientId": 13,
+      "type": false,
+      "userId": 1,
+      "date": "2021-11-19T20:57:21-03:00",
+      "cancel": false,
+      "areas": "Traumas, TEPT e Relacionamentos",
+      "name": "Leonice Bandeira",
+      "comment": "Tenho problemas de falar sem compartilhar a tela e problemas no audio",
+      "zoom": "https://us05web.zoom.us/j/7505865997?pwd=L29zcndsRXM2ekM4L2xhMWl1cytWUT09",
+      "passwordZoom": "123456",
+      "id": 2
     }
   ],
   "comments": [
@@ -321,7 +309,7 @@
       "comment": "Fazer terapia online soava estranho para mim. Por sorte, encontrei a Leonice. Excelente profissional com uma percepção e empatia surpreendentes. Super recomendo!",
       "id": 3,
       "patientId": 11,
-      "professionalId": 3,
+      "professionalId": 1,
       "score": 3
     },
     {
@@ -345,14 +333,14 @@
       "comment": "Muito boa profissional. Ótima percepção e boa empatia.",
       "id": 6,
       "patientId": 11,
-      "professionalId": 2,
+      "professionalId": 1,
       "score": 3
     }
   ],
   "commentsPage": [
     {
       "namePatient": "Fabiola",
-      "comment": "Me sinto mais acolhida com o psicólogo do Tranqyl do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
+      "comment": "Me sinto mais acolhida com o psicólogo do Tranqly do que o que eu tinha antes. Achei fácil escolher a linha de abordagem ideal, não tenho mais gasto nem preocupação com transporte. É muito mais confortável e mais econômico.",
       "id": 1,
       "score": 5
     },
@@ -370,7 +358,7 @@
     },
     {
       "namePatient": "Fernando",
-      "comment": "Utilizar o Tranqyl me ajudou nesse tempo de quarentena, conversar com alguém que sabe te ajudar e sabe o que você está passando é a melhor coisa. E fazer isso online também me ajudou, pois possibilitou eu ter ajuda rápida.",
+      "comment": "Utilizar o Tranqly me ajudou nesse tempo de quarentena, conversar com alguém que sabe te ajudar e sabe o que você está passando é a melhor coisa. E fazer isso online também me ajudou, pois possibilitou eu ter ajuda rápida.",
       "id": 4,
       "score": 5
     },
@@ -382,7 +370,7 @@
     },
     {
       "namePatient": "Lana",
-      "comment": "fazer terapia online soava estranho para mim. Por sorte encontrei o Tranqyl.",
+      "comment": "Fazer terapia online soava estranho para mim. Por sorte encontrei o Tranqly.",
       "id": 6,
       "score": 3
     }
