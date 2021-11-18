@@ -122,13 +122,15 @@ Para cliente
 }
 ```
 
+## Rotas que necessitam de autenticação
+
 <h3 align='center'> Busca de horário disponível de um profissional </h3>
 
-`GET /users/:id/professional - FORMATO DA REQUISIÇÃO`
+`GET /users/1/professional - FORMATO DA REQUISIÇÃO`
 
 Caso dê tudo certo, a resposta será assim:
 
-`GET /users/:id/professional - FORMATO DA RESPOSTA - STATUS 200`
+`GET /users/1/professional - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
@@ -140,8 +142,6 @@ Caso dê tudo certo, a resposta será assim:
   }
 ]
 ```
-
-## Rotas que necessitam de autenticação
 
 <h3 align='center'> Agendar um horário com especialista</h3>
 
