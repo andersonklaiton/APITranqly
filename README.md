@@ -285,4 +285,27 @@ Caso dê tudo certo, a resposta será assim:
     },
 }
 ```
+<h3 align='center'>Acrescentar horário para atendimentos - profissional</h3>
 
+`PATCH /professional/1 - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+      "userId": 2,
+      "type": true,
+      "date": "2021-11-16T20:57:21-07:00"
+}
+```
+
+Caso dê tudo certo a resposta será assim:
+
+`PATCH /professional/1 - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "id": 1,
+  "userId": 2,
+  "type": true,
+  "date": "2021-11-16T20:57:21-07:00"
+}
+```
